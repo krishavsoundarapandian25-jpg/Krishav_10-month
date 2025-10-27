@@ -626,4 +626,3 @@ update_score_label()
 
 root.mainloop()
 
-Print("you did'nt do the work ")
