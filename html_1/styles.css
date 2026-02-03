@@ -1,8 +1,115 @@
 body{
-    background-color: rgb(7, 114, 114);
-
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
 
 }
+
 h1{
+    color: white;
     text-align: center;
+    vertical-align: top;
+}
+p{
+    font-family: Lobster, cursive;
+    font-size: 39px;
+    text-align: center;
+    margin: 0px;}
+
+
+
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1F2933;
+
+}
+
+.logo {
+  height: 150px;
+    width: 150px;
+}
+
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+
+
+
+.navbar {
+  background-color: #0A2540;
+  padding: 10px 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #38BDF8;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #1E3A8A;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 150px;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+/* Show on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+footer {
+  background: #0A2540;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+main{
+    flex: 1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }

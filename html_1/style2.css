@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+     display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    color:white;
+    text-align: center;
+    vertical-align: top;
+}
+
+#headline{
+
+    color: White;
+    font-family: lobster, cursive;
+    font-size: 39px;
+    text-decoration: underline;
+
+
+}
+
+.description{
+    font-family: lobster, cursive;
+    font-size: 20px;
+}
+
+main{
+    flex: 1;    
+}
+
+
+
+button{
+    font-family: lobster, cursive;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
