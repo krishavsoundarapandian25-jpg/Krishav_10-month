@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    }
+
+    /* Score counter */
+    #score {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: white;
+        font-size: 28px;
+        z-index: index 10;
+    }
+
+    /* Pause menu */
+    #pasuseMenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: ragba(0, 0, 0, 0.7);
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        display: none;
+        z-index: 20;
+}      
+
+#pauseMenu button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+/* Canava Full Screen */ 
+canvas {
+    display: block;
+}
+
+
